@@ -1,9 +1,11 @@
+
+<div class="page">
 <div>
    <table class ="table w-50 mt-5" ></table>
 </div>
 
 
-
+<input type ="text" keydown="searchProduct()" class="w-100" placeholder="Search Product">
 <table class ="table w-50 mt-5">
    <tbody *ngFor = "let product of products; let i= index;">
       <tr>
@@ -12,3 +14,4 @@
    </tbody>
 </table>
 
+</div>
