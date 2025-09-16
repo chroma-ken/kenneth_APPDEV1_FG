@@ -1,0 +1,14 @@
+<div>
+   <table class ="table w-50 mt-5" ></table>
+</div>
+
+
+
+<table class ="table w-50 mt-5">
+   <tbody *ngFor = "let product of products; let i= index;">
+      <tr>
+         <th>{{product.name}}<br>{{product.price}}</th>
+      </tr>
+   </tbody>
+</table>
+
