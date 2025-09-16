@@ -4,7 +4,11 @@
 }
 
 .page {
+    position: relative;
     padding: 100vh, 100vw;
     background-color: black;
+    height: 150vh;
+    width: 100vw;
+    object-fit: cover;
 
 }
